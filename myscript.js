@@ -1,10 +1,9 @@
 $(document).ready(function () {
 
 $(".tasto").click(function () {
-  $(this).find(".dropmenu").toggle()
+  $(this).find(".dropmenu").fadeToggle()
 
 });
-
 
 
 })
