@@ -1,14 +1,10 @@
 $(document).ready(function () {
 
-$(".tasto").click(vediMenu);
+$(".tasto").click(function () {
+  $(this).find(".dropmenu").toggle()
+
+});
+
+
 
 })
-
-// DICHIARAZIONE FUNZIONI
-
-// Al click sulla nav vedo i dropdown
-function vediMenu() {
-
-$(".dropmenu").addClass("active");
-
-}
