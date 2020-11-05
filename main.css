@@ -34,9 +34,6 @@ a{
   display: none;
 }
 
-.dropmenu.active{
-  display: block;
-}
 
 .item{
   display: block;
@@ -52,4 +49,17 @@ a{
   display: inline-block;
   padding: 10px;
   position:relative;
+}
+
+button{
+  float: right;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: violet;
+  margin-top: 2px;
+}
+
+select{
+  padding: 5px;
+  border: 0px;
 }
